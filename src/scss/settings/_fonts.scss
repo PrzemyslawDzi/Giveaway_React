@@ -1,4 +1,11 @@
-@import "../../assets/fonts";
+@font-face {
+  src: url("../../assets/fonts/OpenSans-Regular.ttf");
+  font-family: openSans;
+}
+@font-face {
+  src: url("../../assets/fonts/Merriweather-Regular.ttf");
+  font-family: Merriweather;
+}
 
-$font-base: 'Open Sans', sans-serif;
-$font-alt: 'Merriweather', sans-serif;
+$font-base: openSans;
+$font-alt: Merriweather;
