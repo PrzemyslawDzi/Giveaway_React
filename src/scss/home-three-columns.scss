@@ -1,0 +1,33 @@
+.home-three-container{
+  background-image: url("../assets/images/Home_-_ThreeColumns.png");
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-column{
+  color: $color-black;
+  width: 20%;
+  text-align: center;
+
+  p {
+    margin: 15px 0;
+    font-weight: 300;
+  }
+  p:nth-child(1){
+    font-size: 5rem;
+    margin-top: 80px;
+
+  }
+  p:nth-child(2){
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  p:nth-child(3){
+    font-size: 0.9rem ;
+    line-height: 1.3rem;
+    margin-bottom: 90px;
+  }
+
+}

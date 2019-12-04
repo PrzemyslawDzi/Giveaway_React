@@ -1,0 +1,30 @@
+.home-steps-container{
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  color: $color-black;
+}
+
+.home-steps-header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 25%;
+  font-size: 2.3rem;
+  margin-top: 30px;
+}
+
+.home-steps-line{
+  background-image: url("../assets/images/Decoration.svg");
+  background-repeat: no-repeat;
+  width: 253px;
+  height: 33px;
+  margin-top: 30px;
+}
+
+.home-all-steps{
+  display: flex;
+  justify-content: center;
+  background-color: $color-white;
+}

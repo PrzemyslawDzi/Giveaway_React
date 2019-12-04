@@ -1,15 +1,20 @@
 import React from 'react';
+import Home from './components/Home'
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    NavLink,
+}from "react-router-dom"
 
-
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       ELO PACZ NA MNIE
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render() {
+      return (
+          <div className="App">
+              <Home/>
+          </div>
+      );
+  }
 }
 
 export default App;

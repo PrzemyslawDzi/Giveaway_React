@@ -1,11 +1,19 @@
 @import "settings/fonts";
 @import "settings/colors";
 @import "../../node_modules/reset.css";
+@import "header";
+@import "home-main-section";
+@import "home-three-columns";
+@import "home-steps";
 
 
 body{
   font-family: $font-base;
 }
+
+
+
+
 
 
 
