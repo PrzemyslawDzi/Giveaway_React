@@ -3,7 +3,7 @@ import HomeHeader from './HomeHeader'
 import HomeMainSection from './HomeMainSection'
 import HomeThreeColumns from "./HomeThreeColumns";
 import HomeSteps from "./HomeSteps";
-
+import HomeAboutUs from "./HomeAboutUs";
 
 class Home extends React.Component{
     render() {
@@ -13,6 +13,7 @@ class Home extends React.Component{
                 <HomeMainSection/>
                 <HomeThreeColumns/>
                 <HomeSteps/>
+                <HomeAboutUs/>
             </>
         )
     }
